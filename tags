@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+CacheDir	acng.conf	/^CacheDir: \/var\/cache\/apt-cacher-ng$/;"	k
+ExTreshold	acng.conf	/^ExTreshold: 4$/;"	k
+LocalDirs	acng.conf	/^LocalDirs: acng-doc \/usr\/share\/doc\/apt-cacher-ng$/;"	k
+LogDir	acng.conf	/^LogDir: \/var\/log\/apt-cacher-ng$/;"	k
+Port	acng.conf	/^Port:3142$/;"	k
+ReportPage	acng.conf	/^ReportPage: acng-report.html$/;"	k
+SupportDir	acng.conf	/^SupportDir: \/usr\/lib\/apt-cacher-ng$/;"	k
+all	Makefile	/^all: build$/;"	t
+alxrep	acng.conf	/^Remap-alxrep: file:archlx_mirrors \/archlinux # ; file:backend_archlx # Arch Linux$/;"	k
+build	Makefile	/^build:$/;"	t
+create_cache_dir	entrypoint.sh	/^create_cache_dir() {$/;"	f
+create_log_dir	entrypoint.sh	/^create_log_dir() {$/;"	f
+create_pid_dir	entrypoint.sh	/^create_pid_dir() {$/;"	f
+cygwin	acng.conf	/^Remap-cygwin: file:cygwin_mirrors \/cygwin # ; file:backends_cygwin # incomplete, please create /;"	k
+debrep	acng.conf	/^Remap-debrep: file:deb_mirror*.gz \/debian ; file:backends_debian # Debian Archives$/;"	k
+epel	acng.conf	/^Remap-epel:   file:epel_mirrors # Fedora EPEL$/;"	k
+exec	Makefile	/^exec:$/;"	t
+fedora	acng.conf	/^Remap-fedora: file:fedora_mirrors # Fedora Linux$/;"	k
+gentoo	acng.conf	/^Remap-gentoo: file:gentoo_mirrors.gz \/gentoo ; file:backends_gentoo # Gentoo Archives$/;"	k
+log	Makefile	/^log:$/;"	t
+run	Makefile	/^run:$/;"	t
+sfnet	acng.conf	/^Remap-sfnet:  file:sfnet_mirrors # ; file:backends_sfnet # incomplete, please create this file o/;"	k
+slrep	acng.conf	/^Remap-slrep:  file:sl_mirrors # Scientific Linux$/;"	k
+stop	Makefile	/^stop:$/;"	t
+uburep	acng.conf	/^Remap-uburep: file:ubuntu_mirrors \/ubuntu ; file:backends_ubuntu # Ubuntu Archives$/;"	k

@@ -1,4 +1,4 @@
-FROM wandsas/minimal
+FROM debian-sid
 
 ENV APT_CACHER_NG_CACHE_DIR=/var/cache/apt-cacher-ng \
     APT_CACHER_NG_LOG_DIR=/var/log/apt-cacher-ng \
